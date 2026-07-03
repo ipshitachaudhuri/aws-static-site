@@ -1,19 +1,19 @@
 ## 📸 Project Screenshots
 
 ### Static Website Hosting
-![Static Website Hosting](screenshots/static-website-hosting.png)
+![Static Website Hosting](static-website-hosting.png)
 
 ### Bucket Policy
-![Bucket Policy](screenshots/bucket-policy.png)
+![Bucket Policy](bucket-policy.png)
 
 ### Objects (S3 Files)
-![Objects](screenshots/objects.png)
+![Objects](objects.png)
 
 ### CloudFront Distribution
-![CloudFront Distribution](screenshots/cloudfront-distribution.png)
+![CloudFront Distribution](cloudfront-distribution.png)
 
 ### S3 Website Live
-![S3 Website Live](screenshots/s3-website-live.png)
+![S3 Website Live](s3-live-website.png)
 
 ### CloudFront Live Website
-![CloudFront Live Website](screenshots/cloudfront-live-website.png)
+![CloudFront Live Website](cloudfront-live-website.png)
