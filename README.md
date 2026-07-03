@@ -1,15 +1,18 @@
-AWS Static Website Hosting with Amazon S3 and CloudFront
+# ☁️ AWS CloudOps Project: Static Website Hosting (Amazon S3 + CloudFront)
 
-Project Overview
+## 🚀 Overview
 
-This project demonstrates how to host a static website on AWS using Amazon S3 and Amazon CloudFront. The website was developed locally, managed with Git and GitHub, deployed to Amazon S3, and delivered globally through CloudFront.
+This project demonstrates how to deploy a production-ready static website on **Amazon Web Services (AWS)** using **Amazon S3** for website hosting and **Amazon CloudFront** as a Content Delivery Network (CDN). It showcases a real-world cloud deployment workflow, from local development to globally accessible website hosting.
 
-Architecture
+---
 
+## 🏗️ Architecture
+
+```text
 Developer
     │
     ▼
-GitHub
+GitHub Repository
     │
     ▼
 Amazon S3 (Static Website Hosting)
@@ -18,42 +21,106 @@ Amazon S3 (Static Website Hosting)
 Amazon CloudFront (CDN)
     │
     ▼
-Users
+Global Users
+```
 
-Technologies Used
+---
 
-* Amazon S3
-* Amazon CloudFront
+## 🌐 Live Deployment
+
+* **Hosting:** Amazon S3 Static Website Hosting
+* **Content Delivery:** Amazon CloudFront
+* **Access:** Public Web Access
+
+---
+
+## 🧰 Tech Stack
+
+* Amazon Web Services (AWS)
+
+  * Amazon S3
+  * Amazon CloudFront
 * Git
 * GitHub
-* HTML
-* CSS
+* HTML5
+* CSS3
 * JavaScript
 
-Features
+---
 
-* Static website hosting using Amazon S3
-* Global content delivery using CloudFront
-* Version control with Git and GitHub
-* Public website access through AWS
+## ✨ Features
 
-What I Learned
+* Hosted a static website using Amazon S3.
+* Configured bucket policies to enable secure public access.
+* Integrated Amazon CloudFront for faster global content delivery.
+* Improved website performance, scalability, and availability through CDN caching.
+* Managed source code using Git and GitHub.
 
-* Creating and configuring an Amazon S3 bucket
-* Enabling static website hosting
-* Configuring bucket policies and permissions
-* Setting up Git and GitHub with SSH authentication
-* Creating a CloudFront distribution
-* Troubleshooting authentication and CloudFront access issues
+---
 
-Future Improvements
+## 🧠 What I Learned
 
-* Automate deployment using AWS CodePipeline
-* Add a custom domain with Amazon Route 53
-* Configure HTTPS with AWS Certificate Manager
-* Implement a complete CI/CD pipeline
+Throughout this project, I gained hands-on experience with:
 
-Author
+* Creating and configuring Amazon S3 buckets
+* Enabling Static Website Hosting
+* Managing bucket policies and public access permissions
+* Configuring Amazon CloudFront distributions
+* Troubleshooting deployment issues and CDN configuration
+* Using Git and GitHub for version control and project management
 
-Ipshita Chaudhuri
-Aspiring CloudOps / DevOps Engineer
+---
+
+## 🔧 Challenges & Solutions
+
+### CloudFront 403 Forbidden Error
+
+* Identified incorrect origin configuration.
+* Updated the origin to use the correct S3 website endpoint.
+
+### S3 Public Access Issues
+
+* Configured bucket policies correctly.
+* Adjusted Block Public Access settings where appropriate.
+
+### CloudFront Origin Misconfiguration
+
+* Differentiated between the S3 bucket endpoint and the S3 static website endpoint.
+* Reconfigured the distribution to use the appropriate endpoint.
+
+### GitHub Authentication Problems
+
+* Resolved authentication issues using SSH keys and Personal Access Tokens (PATs).
+
+---
+
+## 📈 Future Enhancements
+
+* Implement a CI/CD pipeline using AWS CodePipeline
+* Automate deployments from GitHub to Amazon S3
+* Configure a custom domain using Amazon Route 53
+* Secure the website with HTTPS using AWS Certificate Manager (ACM)
+* Add monitoring and logging using Amazon CloudWatch
+
+---
+
+## 📌 Skills Demonstrated
+
+* AWS Cloud Fundamentals
+* Amazon S3
+* Amazon CloudFront
+* Static Website Hosting
+* CDN Configuration
+* Git & GitHub
+* Troubleshooting Cloud Deployments
+* Basic DevOps Practices
+
+---
+
+## 👩‍💻 Author
+
+**Ipshita Chaudhuri**
+
+Aspiring **CloudOps / DevOps Engineer**
+
+Passionate about building scalable cloud infrastructure, automating deployments, and continuously learning modern cloud technologies.
